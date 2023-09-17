@@ -23,13 +23,15 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav m-auto">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            <a class="nav-link" href="about.html">About</a>
-                            <a class="nav-link" href="#">What We Do</a>
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link active dropdown-toggle " aria-current="page" href="index.html"
+                                type="button" data-toggle="dropdown">Home</a>
+                            <a class="nav-link " href="about.html">About</a>
+                            <a class="nav-link dropdown-toggle" href="#" type="button" data-toggle="dropdown">What We
+                                Do</a>
+                            <a class="nav-link dropdown-toggle" href="#" type="button" data-toggle="dropdown">Blog</a>
                             <a class="nav-link" href="#">Pricing</a>
                             <a class="nav-link" href="contact.html">Contact</a>
-                            <button>Get strated</button>
+                            <span class="cta">Get Started</span>
                         </div>
                     </div>
             </div>
@@ -41,18 +43,25 @@
                 <div class="col-sm-12 col-md-6">
                     <img src="images/g4.jpg" alt="g4">
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-6">
                     <h5>About Us</h5>
                     <h1 class="mb-5 fw-bold">Awesome Award-Winning web desing studio</h1>
                     <p class="mb-5 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora dolor
                         aliquid sint
                         blanditiis id corrupti rem eligendi officia! Voluptatum incidunt dicta esse distinctio ducimus.
                         Voluptas sed inventore minus at!</p>
-                    <ul>
-                        <li class="fa fa-circle-o ">latest Bootstrap framework</li>
-                        <li class="fa fa-circle-o ">highly Responsive </li>
-                        <li class="fa fa-circle-o ">Easy to customize</li>
-                    </ul>
+                    <li><span>
+                            <i class="fa fa-circle-o"></i>
+                            Latest Bootstrap framework
+                        </span></li>
+                    <span>
+                        <li> <i class="fa fa-circle-o" ></i>
+                            Highly Responsive
+                    </span></li>
+                    <span>
+                        <li><i class="fa fa-circle-o"></i>
+                            Easy to cutomize
+                    </span></li>
                 </div>
             </div>
         </section>
@@ -62,16 +71,16 @@
             <div class="row">
                 <div class="col-sm-12 text-center mt-5">
                     <h5>Iterative process</h5>
-                    <h1>how we work </h1>
+                    <h1>How we work </h1>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col">
+                <div class="col-sm-12 col-md-6 ">
                     <div class="card mb-5">
                         <div class="card-body">
                             <div class="round">
-                                <h1>01.</h1>
+                                <div class="circle-singleline">01.</div>
                             </div>
                             <h3>Situational anlaysis</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum illum unde
@@ -82,7 +91,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="round">
-                                <h1>03.</h1>
+                                <div class="circle-singleline">03.</div>
                             </div>
                             <h3>Defining the marketing strategy</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum illum unde
@@ -91,11 +100,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
+                <div class="col-md-6 mb-5">
                     <div class="card mb-5">
                         <div class="card-body">
                             <div class="round">
-                                <h1>02.</h1>
+                                <div class="circle-singleline">02.</div>
                             </div>
                             <h3>Marketing goals establishment</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum illum unde
@@ -106,7 +115,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="round">
-                                <h1>04.</h1>
+                                <div class="circle-singleline">04.</div>
                             </div>
                             <h3>Measuring results</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum illum unde
@@ -128,16 +137,25 @@
             </div>
             <div class="row mt-5">
                 <div class="col-sm-12 col-md-6">
-                    <img src="images/g3.jpg" alt="">
+                    <img src="images/g3.jpg" alt="g3">
                 </div>
-                <div class="col">
-                    <h3 class="fa fa-copy fw-bold">Content marketing</h3>
+                <div class="col-sm-12 col-md-6">
+                    <span>
+                        <i class="fa-2x fa fa-copy"></i>
+                        Content marketing
+                    </span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolores ab quaerat, nisi qui
                         sit neque ea inventore.</p>
-                    <h3 class="fa fa-search fw-bold"> Search engine optimization</h3>
+                    <span>
+                        <i class="fa-2x fa fa-search"></i>
+                        Search engine optimization
+                    </span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolores ab quaerat, nisi qui
                         sit neque ea inventore.</p>
-                    <h3 class=" fa fa-video-camera fw-bold ">Social media marketing</h3>
+                    <span>
+                        <i class="fa-2x fa fa-video-camera"></i>
+                        Social media marketing
+                    </span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolores ab quaerat, nisi qui
                         sit neque ea inventore.</p>
                 </div>
@@ -156,7 +174,8 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <p class="fa  fa-quote-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+                            <p><span class="fa fa-quote-left fa-2x"></span></p>
+                            <p class="ms-5 mt-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
                                 magnam unde voluptatum
                                 consectetur. Omnis saepe iste et eveniet corporis tempore quam, aliquam, laborum
                                 accusantium aut est. Voluptatum quis incidunt reiciendis.</p>
@@ -169,13 +188,14 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <p class="fa fa-quote-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+                            <p><span class="fa fa-quote-left fa-2x"></span></p>
+                            <p class="ms-5 mt-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
                                 magnam unde voluptatum
                                 consectetur. Omnis saepe iste et eveniet corporis tempore quam, aliquam, laborum
                                 accusantium aut est. Voluptatum quis incidunt reiciendis.</p>
                             <img src="images/team2.jpg" class="rounded-circle" alt="team1">
                             <h2>Alexander leo</h2>
-                            <h6>Settle, washtigton</h6>
+                            <h6> Settle, washtigton</h6>
                         </div>
                     </div>
                 </div>
@@ -185,7 +205,7 @@
         <section class="contanier">
             <div class="row text-center mt-5">
                 <h2>Lovely team</h2>
-                <h1 class="fw">Meet our Team</h1>
+                <h1 class="fw-bold">Meet our Team</h1>
             </div>
             <div class="row">
                 <div class="col">
@@ -257,22 +277,22 @@
     <div class="section container-fluid footer">
         <section class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 foot">
                     <img src="images/logo.PNG" alt="">
-                    <p>+(21)-255-999-8888</p>
-                    <p>desing@mail.com</p>
+                    <li><span><i class="fa-2x fa fa-phone"></i> +(21)-255-999-8888</span></li>
+                    <li><span><i class="fa-2x fa fa-envelope-open-o"></i>desing@mail.com</span></li>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="row">
                         <div class="col">
-                            <h3>Company</h3>
+                            <h3 class="fw-bold">Company</h3>
                             <p>About Company</p>
                             <p>Blog posts</p>
                             <p>Pricing plans</p>
                             <p>Contact us</p>
                         </div>
                         <div class="col">
-                            <h3>Services</h3>
+                            <h3 class="fw-bold">Services</h3>
                             <p>what we do</p>
                             <p>How we work</p>
                             <p>what we offer</p>
@@ -280,14 +300,14 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h3>Subscribe to our Nesletter</h3>
+                    <h3 class="fw-bold">Subscribe to our Nesletter</h3>
                     <p>Enter your email and recive the latest news, updates and special offer form us</p>
-                    <p>your email adress</p>
+                    <input type="text" placeholder="Your Email Address" class="bg-body-tertiary">
+                    <i class="fa-2x fa fa-envelope-o"></i>
                 </div>
             </div>
         </section>
     </div>
-
 </body>
 
 </html>

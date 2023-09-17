@@ -23,13 +23,15 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav m-auto">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            <a class="nav-link" href="about.html">About</a>
-                            <a class="nav-link" href="#">What We Do</a>
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link active dropdown-toggle " aria-current="page" href="index.html"
+                                type="button" data-toggle="dropdown">Home</a>
+                            <a class="nav-link " href="about.html">About</a>
+                            <a class="nav-link dropdown-toggle" href="#" type="button" data-toggle="dropdown">What We
+                                Do</a>
+                            <a class="nav-link dropdown-toggle" href="#" type="button" data-toggle="dropdown">Blog</a>
                             <a class="nav-link" href="#">Pricing</a>
-                            <a class="nav-link" href="contact.html">contact</a>
-                            <button>Get strated</button>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                            <span class="cta">Get Started</span>
                         </div>
                     </div>
             </div>
@@ -67,7 +69,7 @@
                             <h1>Address</h1>
                             <p>#302, 5th floor, ALHK2247 ek,</p>
                             <p>Settlers lane, New York</p>
-                            <span class="fa fa-map"></span>
+                            <span class="fa fa-map fa-3x"></span>
                         </div>
                     </div>
                 </div>
@@ -77,7 +79,7 @@
                             <h1>Email</h1>
                             <p>mailone@example.com</p>
                             <p>mailtwo@example.customize</p>
-                            <span class="fa  fa-envelope"></span>
+                            <span class="fa  fa-envelope fa-3x"></span>
                         </div>
                     </div>
                 </div>
@@ -87,7 +89,7 @@
                             <h1>Phone</h1>
                             <p>+12 324-016-695</p>
                             <p>+44 224-058-545</p>
-                            <span class="fa fa-headphones"></span>
+                            <span class="fa fa-headphones fa-3x"></span>
                         </div>
                     </div>
                 </div>
@@ -104,22 +106,22 @@
     <div class="section container-fluid footer">
         <section class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 foot">
                     <img src="images/logo.PNG" alt="">
-                    <p>+(21)-255-999-8888</p>
-                    <p>desing@mail.com</p>
+                    <li><span><i class="fa-2x fa fa-phone"></i> +(21)-255-999-8888</span></li>
+                    <li><span><i class="fa-2x fa fa-envelope-open-o"></i>desing@mail.com</span></li>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="row">
                         <div class="col">
-                            <h3>Company</h3>
+                            <h3 class="fw-bold">Company</h3>
                             <p>About Company</p>
                             <p>Blog posts</p>
                             <p>Pricing plans</p>
                             <p>Contact us</p>
                         </div>
                         <div class="col">
-                            <h3>Services</h3>
+                            <h3 class="fw-bold">Services</h3>
                             <p>what we do</p>
                             <p>How we work</p>
                             <p>what we offer</p>
@@ -127,9 +129,10 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h3>Subscribe to our Nesletter</h3>
+                    <h3 class="fw-bold">Subscribe to our Nesletter</h3>
                     <p>Enter your email and recive the latest news, updates and special offer form us</p>
-                    <p>your email adress</p>
+                    <input type="text" placeholder="Your Email Address" class="bg-body-tertiary">
+                    <i class="fa-2x fa fa-envelope-o"></i>
                 </div>
             </div>
         </section>

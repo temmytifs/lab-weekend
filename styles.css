@@ -202,25 +202,27 @@
     color: rgb(22, 22, 108);
     font-size: 50px;
 }
-.aboutus ul li{
+.aboutus li{
     list-style: none;
-    font-size: 40px;
-    margin-top: 0%;
 }
 
 .aboutus p{
     font-size: 20px;
     margin-top: 0px !important;
 }
-.process .round{
-    border-radius: 100px;
-    border: #49a9d2 solid;
-    width: 10%;
-    height: 10%;
-    text-align: center;
-    background-color: #49a9d2;
-    color: white;
+
+.circle-singleline {
+    margin: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;    
+    background: #49a9d2;
+    color: #fff;
 }
+
 .process .card{
     border: none;
 }
@@ -230,11 +232,11 @@
 }
 .process .card h3{
     margin-left: 60px;
-    display: inline;
 }
 .industy img{
     width: 80%;
     height:90%;
+    text-align: center;
 }
 .industy h3{
     color: rgb(22, 22, 108); 
@@ -312,4 +314,16 @@
 }
 .address .card{
     border: none;
+}
+
+.fa{
+    color: #49a9d2;
+}
+.foot li{
+    list-style: none;
+    font-size: 20px;
+}
+.address .fa{
+    margin-left: 300px;
+    color: rgba(210, 196, 175, 0.200);
 }

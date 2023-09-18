@@ -43,9 +43,13 @@
 
 }
 
-.hero p{
-    text-align: center;
-    font-size: 20px;
+.hero1 .htext{
+    border: solid red;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 40px ;
+    margin-right: px;
+
 }
 .hero2 h1{
     color: rgb(22, 22, 108);

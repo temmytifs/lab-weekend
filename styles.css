@@ -32,13 +32,15 @@
     color: #eee;
 }
 .heroo{
-    margin-top: 28% !important;
+    padding-top: 20px !important;
 }
 .hero h1{
     font-size: 40px;
     color: rgb(22, 22, 108);
     text-align: center;
     margin-bottom: 0%;
+    padding-top: 50px !important;
+
 }
 
 .hero p{
@@ -191,7 +193,7 @@
     font-size: 25px;
 }
 .aboutus{
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: 80px;
 }
 .aboutus img{
@@ -297,6 +299,7 @@
 }
 .touch{
     margin-top: 100px;
+    padding-top: 10px;
 }
 .touch input{
     width: 35%;

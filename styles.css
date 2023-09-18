@@ -324,10 +324,20 @@
     font-size: 20px;
 }
 .address .fa{
-    margin-left: 300px;
+    margin-left: 100px;
     color: rgba(210, 196, 175, 0.200);
 }
 .foot .fa {
     margin-right: 10px !important;
     color: black;
+}
+
+.industy .fa{
+    margin-right: 10px !important;
+    font-size: 30px !important;
+}
+.industy .fatext{
+    font-size: 30px;
+    color:rgb(22, 22, 108);
+    font-weight: bold;
 }
